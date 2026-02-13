@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/app.css" />
 </head>
 <body>
+    <div class="side-menu">
     <menu>
         <menu>
             <a asp-controller="Home" asp-action="Index">Home</a>
@@ -16,7 +17,7 @@
             <partial name="_LoginPartial" />
         </menu>
     </menu>
-
+    </div>
     <p>
         @RenderSection("SubHeader", false)
     </p>
